@@ -173,6 +173,23 @@ header {
     padding-top: 10px;
 }
 
+#year{
+    position: relative;
+    left: -100px;
+    top: -100px;
+    padding: 40px;
+}
+
+#year a{
+    color: #FFF;
+    font-size: 45px;
+    font-weight: 600;
+}
+#year a span{
+    font-size: 20px;
+    font-weight: normal;
+}
+
 
 /* Some facts */
 .container .fact-title {
@@ -206,6 +223,12 @@ header {
     text-align: center;
     width: 200px;
     height: 200px;
+    transition: 0.5s;
+}
+
+.fact-card .fact-card-body:hover{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    cursor: pointer;
 }
 
 .fact-card-body img {
